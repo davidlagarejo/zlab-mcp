@@ -15,6 +15,9 @@ https://mcp.zircular.io/mcp
 Listed in the [official MCP registry](https://registry.modelcontextprotocol.io) as
 **`io.zircular/zlab-stress-test`**.
 
+> **New here? Start with [What źlab does](docs/WHAT_IS_ZLAB.md)** — a plain-language
+> explanation of the problem it solves, what you get back, and a worked example.
+
 ## Install
 
 **Claude (web / desktop)** — Settings → Connectors → *Add custom connector* → paste the URL. (Pro/Max)
@@ -41,7 +44,10 @@ claude mcp add --transport http zlab https://mcp.zircular.io/mcp
 
 Full instructions: [zircular.io/connect](https://zircular.io/connect)
 
-## What it does
+## The connector (tools & output)
+
+For the plain-language "what does this actually do" answer, see
+[**What źlab does**](docs/WHAT_IS_ZLAB.md). In short:
 
 Four tools: `screen_operational_decision` (submit; job-based, 3–10 min),
 `get_stress_test_status`, `fetch_stress_test_result`, and a backward-compatible
